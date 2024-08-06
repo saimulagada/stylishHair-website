@@ -1,0 +1,162 @@
+@media screen and (max-width:980px) {
+    .container {
+        width: 750px;
+    }
+
+    .header2_content img {
+
+        height: 500px;
+    }
+
+    .header2_inner h2 {
+        font-size: 33px;
+    }
+
+    .header2_inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    main h2,
+    article h2 {
+        font-size: 30px;
+    }
+
+    main h2::after {
+        width: 58px;
+        left: 285px;
+    }
+
+    .main_content {
+        float: left;
+        width: 31%;
+        margin-right: 24px;
+    }
+
+    .main_content h3 {
+        font-size: 18px;
+    }
+
+    .main_content p {
+        font-size: 12px;
+    }
+
+    .article_content img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .article_content_inner {
+
+        margin-top: 10px;
+    }
+
+    .article_content_inner p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 96%;
+    }
+    header {
+        position: relative;
+    }
+
+    .header1 nav {
+        display: none;
+        margin-top: 40px;
+       
+       
+
+    }
+
+    .header1 nav.show {
+        display: block;
+    }
+
+    .header1 .menu-bar {
+        display: block;
+    }
+
+    .menu-bar i {
+        cursor: pointer;
+    }
+
+    .header1 nav ul {
+
+        position: absolute;
+        margin: 10px 0;
+        top:100px;
+        left:0;
+        right:0;
+        z-index:100;
+        background-color: #222;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .header1 nav ul li {
+        margin: 10px 0;
+        display: inline-block;
+    }
+
+    .header2_inner:first-child,
+    .header2_inner:last-child {
+        float: none;
+        width: 100%;
+    }
+
+    .header2_inner:last-child {
+
+        margin-top: 40px;
+    }
+
+    .header2_inner h2 {
+        font-size: 28px;
+    }
+
+    main h2::after {
+        display:none;
+        left: 65px;
+    }
+
+    .main_content {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main,
+    article {
+        padding: 30px 0;
+    }
+
+    .article_content img {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .article_content_inner {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact form {
+        width: 300px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+    footer p {
+       
+        font-size: 17px;
+    }
+
+
+}
